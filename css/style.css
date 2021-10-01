@@ -289,6 +289,7 @@ ol {
     left: 50%;
     bottom: 30px;
     display: flex;
+    padding-left: 0;
     transform: translateX(-50%);
     -webkit-transform: translateX(-50%);
     -moz-transform: translateX(-50%);
@@ -410,6 +411,7 @@ ol {
     background: url(../images/gallery-bg.jpg) no-repeat center / cover;
     z-index: 1;
     padding-top: 30px;
+    margin-top: 25px;
 }
 
 #gallery .gallery-bg::after {
@@ -590,3 +592,507 @@ ol {
 /* =================
     Team css ends
 ================ */
+
+
+/* =======================
+    Testimonial css Starts
+======================= */
+
+#testimonial {
+    margin-top: 35px;
+}
+
+#testimonial .testimonial-bg {
+    background: url(../images/testimonial-bg.jpg) no-repeat center / cover;
+    z-index: 1;
+    padding-top: 30px;
+    padding-bottom: 80px;
+    margin-top: 25px;
+}
+
+#testimonial .testimonial-bg::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: var(--opa-8);
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+#testimonial .testimonial-bg .testimonial-item {
+    padding: 0 15px;
+}
+
+#testimonial .testimonial-bg .testimonial-item .testimonial-image {}
+
+#testimonial .testimonial-bg .testimonial-item .testimonial-title {}
+
+#testimonial .testimonial-bg .testimonial-item .testimonial-title h3 {
+    font-family: var(--hfont);
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 5px !important;
+}
+
+#testimonial .testimonial-bg .testimonial-item .testimonial-title p {
+    font-family: var(--hfont);
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 5px !important;
+}
+
+#testimonial .testimonial-bg .testimonial-item .testimonial-title ul {}
+
+#testimonial .testimonial-bg .testimonial-item .testimonial-title ul li {
+    margin-right: 4px;
+    color: var(--bcolor);
+    font-size: 14px;
+}
+
+#testimonial .testimonial-bg .testimonial-item .testimonial-title ul {}
+
+
+#testimonial .testimonial-bg .testimonial-item .testimonial-text {
+    margin-top: 5px;
+}
+
+#testimonial .testimonial-bg .testimonial-item .testimonial-text p {
+    font-family: var(--pfont);
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: justify;
+}
+
+#testimonial .testimonial-bg .slick-dots {
+    position: absolute;
+    left: 50%;
+    bottom: -65px;
+    display: flex;
+    padding-left: 0;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+
+#testimonial .testimonial-bg .slick-dots li {
+    width: 15px;
+    height: 15px;
+    border: 1px solid #fff;
+    margin-right: 10px;
+    border-radius: 50%;
+    transform: scale(.9);
+    cursor: pointer;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    -webkit-transform: scale(.9);
+    -moz-transform: scale(.9);
+    -ms-transform: scale(.9);
+    -o-transform: scale(.9);
+}
+
+#testimonial .testimonial-bg .slick-dots li:last-child {
+    margin: 0;
+}
+
+#testimonial .testimonial-bg .slick-dots .slick-active {
+    background: var(--bcolor);
+    border-color: var(--bcolor);
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+}
+
+#testimonial .testimonial-bg .slick-dots button {
+    font-size: 0;
+    outline: none;
+    border: none;
+}
+
+
+/* ======================
+    Testimonial css ends
+===================== */
+
+
+/* ======================
+    Membership css Starts
+===================== */
+
+#membership {
+    margin-top: 75px;
+}
+
+#membership .pricing {
+    margin-top: 25px;
+}
+
+#membership .pricing .pricing-header {
+    background: #ddd;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+}
+
+#membership .pricing .pricing-header h4 {
+    font-family: var(--hfont);
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--hcol);
+    line-height: 54px;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+}
+
+#membership .pricing:hover .pricing-header {
+    background: var(--bcolor);
+}
+
+#membership .pricing:hover .pricing-header h4 {
+    color: #fff;
+}
+
+#membership .pricing .monthly-price {
+    background: url(../images/membership-1.jpg) no-repeat center / cover;
+    position: relative;
+    z-index: 1;
+}
+
+#membership .pricing .monthly-price::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--opa-8);
+    z-index: -1;
+}
+
+#membership .pricing .monthly-price h4 {
+    line-height: 120px;
+    color: #fff;
+    font-family: var(--hfont);
+    font-size: 50px;
+    font-weight: 500;
+}
+
+#membership .pricing .monthly-price h4 span {
+    font-size: 29px;
+}
+
+#membership .pricing .feature-list {
+    padding: 35px 0;
+    background: #f1f1f1;
+}
+
+#membership .pricing .feature-list ul {}
+
+#membership .pricing .feature-list ul li {
+    font-family: var(--pfont);
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: var(--spcol);
+}
+
+#membership .pricing .feature-list ul li:last-of-type {
+    margin-bottom: 0;
+}
+
+#membership .pricing .pricing-footer {
+    background: #ddd;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+}
+
+#membership .pricing:hover .pricing-footer {
+    background: var(--bcolor);
+}
+
+#membership .pricing .pricing-footer a {
+    font-family: var(--hfont);
+    display: block;
+    font-size: 16px;
+    color: var(--hcol);
+    line-height: 35px;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+}
+
+#membership .pricing:hover .pricing-footer a {
+    color: #fff;
+}
+
+
+/* =====================
+    Membership css ends
+=================== */
+
+
+/* ====================
+    Counter css Starts
+=================== */
+
+
+#counter {
+    margin-top: 75px;
+    background: url(../images/counter-bg.jpg) no-repeat center / cover;
+    position: relative;
+    z-index: 1;
+    padding: 45px 0;
+}
+
+#counter::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--opa-9);
+    z-index: -1;
+}
+
+#counter .counter-item {}
+
+#counter .counter-item h4 {
+    font-family: var(--hfont);
+    font-size: 40px;
+    font-weight: 700;
+}
+
+#counter .counter-item p {
+    font-family: var(--hfont);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+/* ==================
+    Counter css ends
+================= */
+
+
+/* ====================
+     Our Classes Starts
+=================== */
+
+#our-classes {
+    margin-top: 75px;
+}
+
+#our-classes .routine-head {
+    margin-top: 25px;
+}
+
+#our-classes .routine-head {}
+
+#our-classes .routine-head .nav-tabs {
+    border-bottom: none !important;
+    background: #f1f1f1;
+}
+
+
+#our-classes .routine-head .nav-tabs .nav-link {
+    font-family: var(--hfont);
+    font-size: 14px;
+    border: none !important;
+    padding: 0 55px;
+    line-height: 50px;
+    color: var(--hcol);
+}
+
+#our-classes .routine-head .nav-tabs .active {
+    background: var(--bcolor);
+    color: #fff;
+    border: none !important;
+    border-radius: 0 !important;
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    -ms-border-radius: 0 !important;
+    -o-border-radius: 0 !important;
+}
+
+#our-classes .routine-footer {
+    margin-top: 30px;
+}
+
+#our-classes .routine-footer .tab-content {}
+
+#our-classes .routine-footer .tab-content ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#our-classes .routine-footer .tab-content ul li {
+    width: 19.5%;
+    padding: 45px 0;
+    margin-bottom: 5px;
+}
+
+#our-classes .routine-footer .tab-content ul .routine-item {
+    background: #f1f1f1;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+}
+
+#our-classes .routine-footer .tab-content ul .routine-item:hover {
+    transform: scale(1.03);
+    -webkit-transform: scale(1.03);
+    -moz-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    -o-transform: scale(1.03);
+}
+
+#our-classes .routine-footer .tab-content ul .active {
+    background: var(--bcolor);
+    color: #fff !important;
+}
+
+#our-classes .routine-footer .tab-content ul .active h5,
+#our-classes .routine-footer .tab-content ul .active p {
+    color: #fff !important;
+}
+
+#our-classes .routine-footer .tab-content ul .routine-item h5 {
+    font-family: var(--pfont);
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--hcol);
+}
+
+#our-classes .routine-footer .tab-content ul .routine-item i {
+    font-size: 45px;
+}
+
+#our-classes .routine-footer .tab-content ul .routine-item p {
+    font-family: var(--pfont);
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--hcol);
+}
+
+/* ==================
+     Our Classes ends
+================= */
+
+/* ===================
+     Brand Logo Starts
+================= */
+
+#brand {
+    margin-top: 75px;
+}
+
+#brand .brand-slider {
+    display: flex;
+    justify-content: space-between;
+}
+
+#brand .brand-slider .fa-angle-left,
+#brand .brand-slider .fa-angle-right {
+    position: absolute;
+    top: 50%;
+    font-size: 30px;
+    cursor: pointer;
+    color: var(--hcol);
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+
+#brand .brand-slider .fa-angle-left {
+    left: -20px;
+}
+
+#brand .brand-slider .fa-angle-right {
+    right: -20px;
+}
+
+#brand .brand-slider .brand-item {
+    padding: 0 15px;
+}
+
+#brand .brand-slider .brand-item img {
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+}
+
+#brand .brand-slider .brand-item:hover img {
+    box-shadow: 0 0 5px rgba(53, 53, 53, 0.5);
+}
+
+/* ==================
+     Brand Logo  ends
+================= */
+
+/* ================
+     Footer  Starts
+=============== */
+
+#fotter {
+    background: url(../images/footer-bg.jpg) no-repeat center / cover;
+    position: relative;
+    z-index: 1;
+    margin-top: 75px;
+}
+
+#fotter::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--opa-85);
+    z-index: -1;
+}
+
+#fotter .footer-header {
+    padding: 30px 0;
+}
+
+#fotter .footer-content {}
+
+#fotter .footer-bottom {}
+
+#fotter .footer-bottom p {
+    font-family: var(--pfont);
+    font-size: 13px;
+    color: #f1f1f1;
+    line-height: 55px;
+}
+
+#fotter .footer-bottom p a {
+    color: var(--bcolor);
+}
+
+
+/* ================
+     Footer  ends
+=============== */
