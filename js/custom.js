@@ -21,6 +21,23 @@ $(document).ready(function () {
         slidesToShow: 4,
         slidesToScroll: 1,
         arrows: false,
+        responsive: [{
+            breakpoint: 992,
+            settings: {
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 5000,
+            }
+        }, {
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 5000,
+            }
+        }]
     });
 
     // Testimonial SLider
@@ -31,6 +48,15 @@ $(document).ready(function () {
         dots: true,
         autoplay: true,
         autoplaySpeed: 5000,
+        responsive: [{
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 5000,
+            }
+        }, ]
     });
 
     // Testimonial SLider
@@ -43,7 +69,24 @@ $(document).ready(function () {
         centerMode: true,
         centerPadding: '0px',
         prevArrow: '<i class="fas fa-angle-left"></i>',
-        nextArrow: '<i class="fas fa-angle-right"></i>'
+        nextArrow: '<i class="fas fa-angle-right"></i>',
+        responsive: [{
+            breakpoint: 992,
+            settings: {
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 5000,
+            }
+        }, {
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 5000,
+            }
+        }]
     });
 
     // Counter Up
