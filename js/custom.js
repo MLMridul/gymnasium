@@ -37,6 +37,14 @@ $(document).ready(function () {
                 autoplay: true,
                 autoplaySpeed: 5000,
             }
+        }, {
+            breakpoint: 576,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 5000,
+            }
         }]
     });
 
@@ -82,6 +90,14 @@ $(document).ready(function () {
             breakpoint: 768,
             settings: {
                 slidesToShow: 2,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 5000,
+            }
+        }, {
+            breakpoint: 576,
+            settings: {
+                slidesToShow: 1,
                 slidesToScroll: 1,
                 autoplay: true,
                 autoplaySpeed: 5000,

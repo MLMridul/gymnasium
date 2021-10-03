@@ -1,0 +1,337 @@
+:root {
+    --hfont: 'Oswald', sans-serif;
+    --pfont: 'Open Sans', sans-serif;
+    --bcolor: #e23e38;
+    --pcol: #777;
+    --hcol: #353535;
+    --spcol: #555;
+    --opa-6: rgba(0, 0, 0, 0.6);
+    --opa-8: rgba(0, 0, 0, 0.8);
+    --opa-85: rgba(0, 0, 0, 0.85);
+    --opa-9: rgba(0, 0, 0, 0.9);
+    --ropa-5: rgba(226, 62, 56, 0.5);
+}
+
+/* =======================
+  Common Media Css Starts
+======================= */
+
+@media(max-width:991px) {
+    /* Navbar Starts */
+
+    .navbar {}
+
+    .navbar .navbar-brand {
+        position: static !important;
+        background: transparent;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        transform: skewX(0);
+        -webkit-transform: skewX(0);
+        -moz-transform: skewX(0);
+        -ms-transform: skewX(0);
+        -o-transform: skewX(0);
+    }
+
+    .navbar .navbar-brand img {
+        transform: skewX(0);
+        -webkit-transform: skewX(0);
+        -moz-transform: skewX(0);
+        -ms-transform: skewX(0);
+        -o-transform: skewX(0);
+    }
+
+    .navbar .navbar-toggler {
+        background: #fff;
+    }
+
+    .navbar .navbar-toggler span {
+        color: var(--bcolor);
+    }
+
+    .navbar .navbar-nav {
+        background: var(--bcolor);
+    }
+
+    /* Navbar Ends */
+
+
+    /* Banner Starts */
+
+
+    #banner .banner-item .banner-text a:last-of-type {
+        margin-left: 10px;
+    }
+
+    /* Banner Ends */
+
+
+}
+
+
+/* ====================
+  Common Media Css Ends
+=================== */
+
+/* ==========================
+   Extra Small Device Starts
+=========================== */
+
+
+@media(max-width:575px) {
+
+
+
+    /* Banner Starts */
+
+    #banner {}
+
+    #banner .banner-item .banner-text h1 {
+        font-size: 50px;
+    }
+
+    #banner .banner-item .banner-text h4 {
+        font-size: 26px;
+    }
+
+    #banner .banner-item.bg-1 h4::before,
+    #banner .banner-item.bg-1 h4::after,
+    #banner .banner-item.bg-1 h1::before,
+    #banner .banner-item.bg-1 h1::after,
+    #banner .banner-item.bg-1 p::before,
+    #banner .banner-item.bg-1 p::after {
+        display: none;
+    }
+
+    #banner .banner-item .banner-text a:last-of-type {
+        margin-left: 10px;
+    }
+
+    #banner {}
+
+    /* Banner Ends */
+
+    /* Testimonial Starts */
+
+    #testimonial .testimonial-bg .testimonial-item .testimonial-image {
+        width: 40%;
+        margin: 0 auto;
+    }
+
+    /* Testimonial Ends */
+
+    /* Brand Starts */
+    #brand .brand-slider {
+        padding: 0 40px;
+    }
+
+    #brand .brand-slider .fa-angle-left {
+        left: 10px;
+    }
+
+    #brand .brand-slider .fa-angle-right {
+        right: 10px;
+    }
+
+    /* Brand Ends */
+
+    /* Routine Starts */
+
+    #our-classes .routine-footer .tab-content ul li {
+        width: 100%;
+        margin-right: 0;
+    }
+
+
+    /* Routine Ends */
+
+
+    /* Footer Starts */
+
+
+
+    #fotter .footer-content .footer-item-3 ul {
+        justify-content: start;
+    }
+
+    /* Footer Ends */
+
+}
+
+
+/* ==========================
+   Extra Small Device Ends
+=========================== */
+
+
+/* =====================
+    Small Device Starts
+==================== */
+
+@media (min-width:576px) and (max-width:767px) {
+
+    /* Banner Starts */
+
+    #banner .banner-item.bg-1 h4::before {
+        width: 141px;
+    }
+
+    #banner .banner-item.bg-1 h4::after {
+        width: 90px;
+    }
+
+    #banner .banner-item.bg-1 p::before {
+        width: 64px;
+    }
+
+    #banner .banner-item.bg-1 p::after {
+        width: 32px;
+    }
+
+
+
+    /* Banner Ends */
+
+
+    /* Testimonial Starts */
+
+    #testimonial .testimonial-bg .testimonial-item .testimonial-image {
+        width: 40%;
+        margin: 0 auto;
+    }
+
+    /* Testimonial Ends */
+
+
+    /* Routine Starts */
+
+    #our-classes .routine-footer .tab-content ul li {
+        width: 100%;
+        margin-right: 0;
+    }
+
+
+    /* Routine Ends */
+
+}
+
+
+/* ====================
+    Small Device Ends
+=================== */
+
+
+/* =====================
+    Medium Device Starts
+==================== */
+
+@media (min-width:768px) and (max-width:991px) {
+
+    /* Banner Starts */
+
+
+    #banner .banner-item.bg-1 h4::before {
+        left: 51px;
+    }
+
+    #banner .banner-item.bg-1 h4::after {
+        right: 53px;
+    }
+
+    #banner .banner-item.bg-1 h1::before {
+        left: 51px;
+    }
+
+    #banner .banner-item.bg-1 h1::after {
+        right: 53px;
+    }
+
+    #banner .banner-item.bg-1 p::before {
+        width: 84px;
+        left: 51px;
+    }
+
+    #banner .banner-item.bg-1 p::after {
+
+        right: 53px;
+    }
+
+    #banner .banner-item.bg-1 .banner-text p {
+        padding: 0 78px;
+        padding-bottom: 30px;
+    }
+
+    /* Banner Ends */
+
+
+    /* Routine Starts */
+
+    #our-classes .routine-footer .tab-content ul li {
+        width: 49%;
+    }
+
+    /* Routine Ends */
+
+
+    #our-classes .routine-footer .tab-content ul li {}
+
+}
+
+/* ====================
+    Medium Device Ends
+=================== */
+
+
+/* =====================
+    Large Device Starts
+==================== */
+
+@media (min-width:992px) and (max-width:1199px) {
+
+    #banner .banner-item.bg-1 h4::before {
+        left: -53px;
+        width: 149px;
+    }
+
+    #banner .banner-item.bg-1 h4::after {
+        right: -53px;
+        width: 101px;
+    }
+
+    #banner .banner-item.bg-1 h1::before {
+        left: -53px;
+    }
+
+    #banner .banner-item.bg-1 h1::after {
+        right: -53px;
+    }
+
+    #banner .banner-item.bg-1 .banner-text p {
+        padding-bottom: 12px;
+    }
+
+    #banner .banner-item.bg-1 p::before {
+        left: -53px;
+        width: 73px;
+    }
+
+    #banner .banner-item.bg-1 p::after {
+        right: -53px;
+        width: 45px;
+    }
+}
+
+/* ====================
+    Large Device Ends
+=================== */
+
+
+/* ==========================
+    Extra Large Device Starts
+========================= */
+
+@media (min-width:1200px) {}
+
+/* =========================
+    Extra Large Device Ends
+========================= */
