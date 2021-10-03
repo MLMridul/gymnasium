@@ -44,6 +44,185 @@ ol {
     Common Css Ends
 ================ */
 
+
+/* ======================
+    Preloader css Starts
+==================== */
+
+.preloader {
+    width: 100%;
+    height: 100%;
+    z-index: 999999;
+    position: fixed;
+    background: var(--hcol);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader {
+    background: #012;
+    width: 240px;
+    height: 240px;
+    margin: 0 auto;
+    border-radius: 50%;
+    position: relative;
+    animation: rotate 5s linear infinite;
+}
+
+.loader:before,
+.loader:after,
+.loader .one:before {
+    content: "";
+    background: #012;
+    height: 66.666%;
+    width: 66.666%;
+    margin: 0 auto;
+    border-radius: 50%;
+    box-shadow: 0 5px 0 5px #8cc, 0 10px 0 10px #012, 0 15px 0 15px #8cc,
+        0 20px 0 20px #012, 0 25px 0 25px #8cc, 0 30px 0 30px #012, 0 35px 0 35px #8cc;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.loader:after {
+    background: linear-gradient(0deg, #000 0%, transparent 100%);
+    width: 100%;
+    height: 100%;
+    box-shadow: none;
+    opacity: 0.4;
+    top: auto;
+    bottom: 0;
+    z-index: 2;
+    animation: rotate-back 5s linear infinite;
+}
+
+.loader .one {
+    background: #012;
+    height: 33.333%;
+    width: 33.333%;
+    margin: 0 auto;
+    border-radius: 50%;
+    box-shadow: 0 -5px 0 5px #8cc, 0 -10px 0 10px #012, 0 -15px 0 15px #8cc,
+        0 -20px 0 20px #012, 0 -25px 0 25px #8cc, 0 -30px 0 30px #012, 0 -35px 0 35px #8cc;
+    position: absolute;
+    top: 33.333%;
+    left: 0;
+    right: 0;
+    z-index: 3;
+}
+
+.loader .one:before {
+    background: linear-gradient(180deg, #000 0%, transparent 100%);
+    width: 100%;
+    height: 100%;
+    box-shadow: none;
+    opacity: 0.4;
+    top: auto;
+    bottom: 0;
+    z-index: 6;
+    animation: rotate-back 5s linear infinite;
+}
+
+.loader .one:after {
+    content: "";
+    background: linear-gradient(180deg, #000 0%, transparent 100%);
+    width: 200%;
+    height: 200%;
+    margin: auto;
+    border-radius: 50%;
+    opacity: 0.4;
+    position: absolute;
+    left: -50%;
+    right: 0;
+    bottom: 0;
+    z-index: 4;
+    animation: rotate-back 5s linear infinite;
+}
+
+.loader .two {
+    width: 5px;
+    height: 5px;
+    margin: 0 auto;
+    border-radius: 50%;
+    box-shadow: 0 5px 0 5px #8cc, 0 10px 0 10px #012, 0 15px 0 15px #8cc,
+        0 20px 0 20px #012, 0 25px 0 25px #8cc, 0 30px 0 30px #012, 0 35px 0 35px #8cc;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 5;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotate-back {
+    0% {
+        transform: rotate(360deg);
+    }
+
+    100% {
+        transform: rotate(0);
+    }
+}
+
+
+/* ====================
+    Preloader css Ends
+==================== */
+
+
+/* ======================
+    ScrollTop css Starts
+====================== */
+
+.scrollTop {
+    width: 40px;
+    height: 40px;
+    background: var(--bcolor);
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    border-radius: 50%;
+    display: none;
+    z-index: 99999;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.scrollTop i {
+    display: block;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #fff;
+}
+
+
+/* ====================
+    ScrollTop css Ends
+==================== */
+
+
+/* ==================
+    Navbar css Starts
+================== */
+
 .navbar {
     /* background: rgba(53, 53, 53, 0.25); */
     background: rgba(53, 53, 53, 0.5);
@@ -144,6 +323,10 @@ ol {
 /* ================
     Navbar css ends
 ================ */
+
+/* ===================
+    Banner css Starts
+=================== */
 
 #banner .banner-item.bg-1 {
     background: url(../images/banner-bg-1.jpg) no-repeat center /cover;

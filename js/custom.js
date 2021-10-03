@@ -1,5 +1,30 @@
 $(document).ready(function () {
 
+    // Preloader Jquery
+
+    $('.preloader').delay(1000).slideUp(2000);
+    $('.loader').fadeOut(1000);
+
+
+
+    // ScroolTop
+
+    $(window).scroll(function () {
+        var scrolling = $(this).scrollTop();
+        if (scrolling > 400) {
+            $('.scrollTop').slideDown()
+        } else {
+            $('.scrollTop').slideUp()
+        }
+    })
+
+    $('.scrollTop').click(function () {
+        $('body ,html').animate({
+            scrollTop: 0
+        }, 2000)
+    })
+
+
     // Banner SLider
 
     $('.banner-slider').slick({
