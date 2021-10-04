@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/venobox.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
 </head>
@@ -70,25 +71,25 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active text-uppercase" aria-current="page" href="#">home</a>
+                        <a class="nav-link active text-uppercase" aria-current="page" href="#banner">home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-uppercase" aria-current="page" href="#">about us</a>
+                        <a class="nav-link text-uppercase" aria-current="page" href="#about">about us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-uppercase" aria-current="page" href="#">plans</a>
+                        <a class="nav-link text-uppercase" aria-current="page" href="#membership">plans</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-uppercase" aria-current="page" href="#">team</a>
+                        <a class="nav-link text-uppercase" aria-current="page" href="#team">team</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-uppercase" aria-current="page" href="#">gallery</a>
+                        <a class="nav-link text-uppercase" aria-current="page" href="#gallery">gallery</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-uppercase" aria-current="page" href="#">testimonial</a>
+                        <a class="nav-link text-uppercase" aria-current="page" href="#testimonial">testimonial</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-uppercase" aria-current="page" href="#">contact</a>
+                        <a class="nav-link text-uppercase" aria-current="page" href="#fotter">contact</a>
                     </li>
                 </ul>
             </div>
@@ -171,7 +172,7 @@
         <div class="container">
             <div class="row">
 
-                <div class="col-lg-6 order-2 order-lg-1">
+                <div class="col-lg-6 order-2 order-lg-1 wow animate__animated animate__fadeInLeft">
                     <div class="about-video position-relative">
                         <img src="images/about.jpg" alt="about-video" class="img-fluid w-100">
                         <div class="overlay position-absolute top-0 start-0 w-100 h-100">
@@ -183,7 +184,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-6 order-1 order-lg-2 mb-4 mb-lg-0">
+                <div class="col-lg-6 order-1 order-lg-2 mb-4 mb-lg-0 wow animate__animated animate__fadeInRight">
                     <div class="about-text">
                         <header class="heading text-center">
                             <h3 class="text-uppercase mb-0">about us</h3>
@@ -228,7 +229,7 @@
             <div class="container">
                 <div class="row">
 
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-4 col-md-6 wow animate__animated animate__slideInLeft animate__delay-1s">
                         <div class="gallery-item position-relative">
                             <img src="images/gallery-1.jpg" alt="Gallery-1" class="img-fluid w-100">
                             <div
@@ -249,7 +250,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-4 col-md-6 wow animate__animated animate__fadeInDown animate__delay-1s ">
                         <div class="gallery-item position-relative">
                             <img src="images/gallery-2.jpg" alt="Gallery-2" class="img-fluid w-100">
                             <div
@@ -270,7 +271,8 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-12 d-md-none d-lg-block">
+                    <div
+                        class="col-lg-4 col-md-12 d-md-none d-lg-block wow animate__animated  animate__slideInRight animate__delay-1s">
                         <div class="gallery-item position-relative">
                             <img src="images/gallery-3.jpg" alt="Gallery-3" class="img-fluid w-100">
                             <div
@@ -555,7 +557,7 @@
 
         <div class="container">
             <div class="row">
-                <div class="col-lg-4">
+                <div class="col-lg-4 wow animate__animated animate__fadeInLeft animate__delay-1s">
                     <div class="pricing text-center">
                         <div class="pricing-header">
                             <h4 class="mb-0 text-uppercase">regular membership</h4>
@@ -578,7 +580,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-4">
+                <div class="col-lg-4 wow animate__animated animate__fadeInDown animate__delay-1s">
 
                     <div class="pricing text-center">
                         <div class="pricing-header">
@@ -601,7 +603,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4  wow animate__animated animate__fadeInRight animate__delay-1s">
                     <div class="pricing text-center">
                         <div class="pricing-header">
                             <h4 class="mb-0 text-uppercase">standard membership</h4>
@@ -1423,6 +1425,7 @@
     <script src="js/venobox.min.js"></script>
     <script src="js/waypoints.min.js"></script>
     <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/wow.min.js"></script>
     <script src="js/custom.js"></script>
 
 </body>

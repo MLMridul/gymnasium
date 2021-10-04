@@ -19,8 +19,6 @@
 @media(max-width:991px) {
     /* Navbar Starts */
 
-    .navbar {}
-
     .navbar .navbar-brand {
         position: static !important;
         background: transparent;
@@ -84,8 +82,6 @@
 
     /* Banner Starts */
 
-    #banner {}
-
     #banner .banner-item .banner-text h1 {
         font-size: 50px;
     }
@@ -107,7 +103,6 @@
         margin-left: 10px;
     }
 
-    #banner {}
 
     /* Banner Ends */
 
@@ -273,7 +268,6 @@
     /* Routine Ends */
 
 
-    #our-classes .routine-footer .tab-content ul li {}
 
 }
 

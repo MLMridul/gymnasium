@@ -38,7 +38,7 @@ ol {
     color: var(--hcol);
 }
 
-.heading img {}
+/* .heading img {} */
 
 /* ================
     Common Css Ends
@@ -195,6 +195,7 @@ ol {
     right: 40px;
     bottom: 40px;
     border-radius: 50%;
+    cursor: pointer;
     display: none;
     z-index: 99999;
     -webkit-border-radius: 50%;
@@ -358,7 +359,7 @@ ol {
     z-index: -1;
 }
 
-#banner .banner-item .banner-text {}
+/* #banner .banner-item .banner-text {} */
 
 #banner .banner-item .banner-text h4 {
     font-family: var(--hfont);
@@ -532,9 +533,10 @@ ol {
 
 #about {
     padding-top: 80px;
+    overflow: hidden;
 }
 
-#about .about-video {}
+/* #about .about-video {} */
 
 #about .about-video .overlay {
     background: var(--opa-6);
@@ -564,7 +566,7 @@ ol {
 
 
 
-#about .about-text .about-details {}
+/* #about .about-text .about-details {} */
 
 #about .about-text .about-details p {
     font-family: var(--pfont);
@@ -588,6 +590,7 @@ ol {
 
 #gallery {
     margin-top: 80px;
+    overflow: hidden;
 }
 
 #gallery .gallery-bg {
@@ -649,7 +652,7 @@ ol {
     margin-top: 80px;
 }
 
-#team .team-slider {}
+/* #team .team-slider {} */
 
 #team .team-slider .team-item {
     padding: 0 15px;
@@ -807,9 +810,9 @@ ol {
     padding: 0 15px;
 }
 
-#testimonial .testimonial-bg .testimonial-item .testimonial-image {}
+/* #testimonial .testimonial-bg .testimonial-item .testimonial-image {}
 
-#testimonial .testimonial-bg .testimonial-item .testimonial-title {}
+#testimonial .testimonial-bg .testimonial-item .testimonial-title {} */
 
 #testimonial .testimonial-bg .testimonial-item .testimonial-title h3 {
     font-family: var(--hfont);
@@ -825,7 +828,7 @@ ol {
     margin-bottom: 5px !important;
 }
 
-#testimonial .testimonial-bg .testimonial-item .testimonial-title ul {}
+/* #testimonial .testimonial-bg .testimonial-item .testimonial-title ul {} */
 
 #testimonial .testimonial-bg .testimonial-item .testimonial-title ul li {
     margin-right: 4px;
@@ -833,7 +836,7 @@ ol {
     font-size: 14px;
 }
 
-#testimonial .testimonial-bg .testimonial-item .testimonial-title ul {}
+/* #testimonial .testimonial-bg .testimonial-item .testimonial-title ul {} */
 
 
 #testimonial .testimonial-bg .testimonial-item .testimonial-text {
@@ -911,6 +914,7 @@ ol {
 
 #membership {
     margin-top: 75px;
+    overflow: hidden;
 }
 
 #membership .pricing {
@@ -991,7 +995,7 @@ ol {
     background: #f1f1f1;
 }
 
-#membership .pricing .feature-list ul {}
+/* #membership .pricing .feature-list ul {} */
 
 #membership .pricing .feature-list ul li {
     font-family: var(--pfont);
@@ -1064,7 +1068,7 @@ ol {
     z-index: -1;
 }
 
-#counter .counter-item {}
+/* #counter .counter-item {} */
 
 #counter .counter-item h4 {
     font-family: var(--hfont);
@@ -1096,7 +1100,7 @@ ol {
     margin-top: 25px;
 }
 
-#our-classes .routine-head {}
+/* #our-classes .routine-head {} */
 
 #our-classes .routine-head .nav-tabs {
     border-bottom: none !important;
@@ -1134,13 +1138,13 @@ ol {
     margin-top: 30px;
 }
 
-#our-classes .routine-footer .tab-content {}
+/* #our-classes .routine-footer .tab-content {}
 
 #our-classes .routine-footer .tab-content ul {
-    /* display: flex;
+    display: flex;
     flex-wrap: wrap;
-    justify-content: space-between; */
-}
+    justify-content: space-between;
+} */
 
 #our-classes .routine-footer .tab-content ul li {
     width: 19.5%;
@@ -1285,7 +1289,7 @@ ol {
     padding: 30px 0;
 }
 
-#fotter .footer-content .footer-item {}
+/* #fotter .footer-content .footer-item {} */
 
 #fotter .footer-content .footer-item h4 {
     font-family: var(--hfont);
@@ -1294,7 +1298,7 @@ ol {
     margin-bottom: 25px !important;
 }
 
-#fotter .footer-content .footer-item-1 ul {}
+/* #fotter .footer-content .footer-item-1 ul {} */
 
 #fotter .footer-content .footer-item-1 ul li {
     font-family: var(--pfont);
@@ -1309,7 +1313,7 @@ ol {
     display: inline-block;
 }
 
-#fotter .footer-content .footer-item-2 ul {}
+/* #fotter .footer-content .footer-item-2 ul {} */
 
 #fotter .footer-content .footer-item-2 ul li {
     display: flex;
@@ -1338,7 +1342,7 @@ ol {
     display: block;
 }
 
-#fotter .footer-content .footer-item-3 {}
+/* #fotter .footer-content .footer-item-3 {} */
 
 #fotter .footer-content .footer-item-3 ul {
     display: flex;
@@ -1375,7 +1379,7 @@ ol {
     height: 100%;
 }
 
-#fotter .footer-content .footer-item-4 .contact {}
+/* #fotter .footer-content .footer-item-4 .contact {} */
 
 #fotter .footer-content .footer-item-4 .contact li {
     display: flex;
@@ -1394,7 +1398,7 @@ ol {
     margin-right: 10px;
 }
 
-#fotter .footer-content .footer-item-4 .contact li address {}
+/* #fotter .footer-content .footer-item-4 .contact li address {} */
 
 #fotter .footer-content .footer-item-4 .social {
     display: flex;
@@ -1424,7 +1428,7 @@ ol {
 
 }
 
-#fotter .footer-bottom {}
+/* #fotter .footer-bottom {} */
 
 #fotter .footer-bottom p {
     font-family: var(--pfont);
