@@ -330,15 +330,15 @@ ol {
 =================== */
 
 #banner .banner-item.bg-1 {
-    background: url(../images/banner-bg-1.jpg) no-repeat center /cover;
+    background: url(../images/banner-bg-1.webp) no-repeat center /cover;
 }
 
 #banner .banner-item.bg-2 {
-    background: url(../images/banner-bg-2.jpg) no-repeat center /cover;
+    background: url(../images/banner-bg-2.webp) no-repeat center /cover;
 }
 
 #banner .banner-item.bg-3 {
-    background: url(../images/banner-bg-3.jpg) no-repeat center /cover;
+    background: url(../images/banner-bg-3.webp) no-repeat center /cover;
 }
 
 #banner .banner-item {
@@ -789,7 +789,7 @@ ol {
 }
 
 #testimonial .testimonial-bg {
-    background: url(../images/testimonial-bg.jpg) no-repeat center / cover;
+    background: url(../images/testimonial-bg.webp) no-repeat center / cover;
     z-index: 1;
     padding-top: 30px;
     padding-bottom: 80px;
@@ -965,7 +965,7 @@ ol {
 }
 
 #membership .pricing .bg-3 {
-    background: url(../images/membership-3.jpg) no-repeat center / cover;
+    background: url(../images/membership-3.webp) no-repeat center / cover;
 }
 
 #membership .pricing .monthly-price::after {
@@ -1052,7 +1052,7 @@ ol {
 
 #counter {
     margin-top: 75px;
-    background: url(../images/counter-bg.jpg) no-repeat center / cover;
+    background: url(../images/counter-bg.webp) no-repeat center / cover;
     position: relative;
     z-index: 1;
     padding: 45px 0;
@@ -1263,7 +1263,7 @@ ol {
 =============== */
 
 #fotter {
-    background: url(../images/footer-bg.jpg) no-repeat center / cover;
+    background: url(../images/footer-bg.webp) no-repeat center / cover;
     position: relative;
     z-index: 1;
     margin-top: 75px;
